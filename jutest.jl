@@ -24,6 +24,7 @@ cNA2b= (c,A) -> return(c*sin(deg2rad(A))) #when you know c & A what is b
 cNA2B = (c,A) -> return(90-A) #when you know c & A what is B
 a= 270; b= 175
 c =350; A= 30
+<<<<<<< Updated upstream
 function input(prompt::AbstractString="")
     print(prompt)
     return chomp(readline())
@@ -32,6 +33,10 @@ end
 response = input("Do you know a & b ? (Y/N)")
 println(response)
 if(response=="y")
+=======
+
+
+>>>>>>> Stashed changes
     println(aNb2A(a,b))
     println(aNb2B(a,b))
     println(aNb2c(a,b))
@@ -56,4 +61,7 @@ if(response=="y")
     println(cNA2b(c,A))
     println(cNA2B(c,A))
     println("finished")
+<<<<<<< Updated upstream
 end
+=======
+>>>>>>> Stashed changes
