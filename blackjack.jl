@@ -1,3 +1,9 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 21 21:00:39 2021
+
+@author: jaewoo.joung
+"""
 
 function makeadeck(조커=2)
     if (조커>2 || 조커<0) #혹시 조커를 두장이상 또는 0이하로 썻다면 그냥 두장으로 합니다.
