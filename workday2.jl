@@ -48,9 +48,12 @@ function workdays_between(start_date::Date, end_date::Date, country::String)::In
 end
 
 start_date = Date(2023, 4, 1)
-FSD = Dates.format(start_date, "B d, Y")
+FSD = String(Dates.monthname(start_date;locale="english"))
+
 end_date = Date(2023, 9, 30)
 FED = Dates.format(end_date, "B d, Y")
+FED = replace(FED, " 0" => " ")
+FED = replace(FED, ", 0" => ", ")
 country = "SE"
 WD = workdays_between(start_date, end_date, country)
 MHC = 333 #Man Hour Cost
