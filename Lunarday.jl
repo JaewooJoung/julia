@@ -9,7 +9,7 @@ function chinese(year::Int)
     terrestrial = ["子", "丑", "寅", "卯", "辰", "巳", "午", "未", "申", "酉", "戌", "亥"]
     aspects     = ["양(+)", "음(-)"]
     base = 4
-
+#
     cycleyear = year - base
 
     stemnumber = cycleyear % 10 + 1
@@ -34,4 +34,9 @@ function chinese(year::Int)
 end
 
 지금 = Dates.year(today())
-println(chinese(지금+1))
+println(chinese(지금))
+
+🍎= 1
+my = 🍎*3
+println(my)
+println(my)
