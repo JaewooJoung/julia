@@ -12,4 +12,4 @@ dt=now()
 commit_message = Dates.format(dt, "yyyymmddHHMMSS ") * my_message
 run(`c:\\tools\\git\\bin\\git.exe commit -m $commit_message`)
 run(`c:\\tools\\git\\bin\\git.exe push --all`)
-#new comment
+#new comment againa
