@@ -1,7 +1,7 @@
 #c:\tools\git\bin\git.exe config --global user.name "JaewooJoung"
 #c:\tools\git\bin\git.exe config --global user.email "jaewoo.joung@outlook.com"
-#c:\tools\git\bin\git.exe config --list # 계정확인
-#cd C:\Users\jaewoo.joung\ #로컬 위치
+#c:\tools\git\bin\git.exe config --list # authetification
+#cd C:\Users\jaewoo.joung\ #local drive 
 #git clone https://github.com/JaewooJoung/julia#git pull origin main
 using Dates 
 my_message = "Auto push" 
