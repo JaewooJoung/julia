@@ -4,7 +4,7 @@
 #cd C:\Users\jaewoo.joung\ #local drive 
 #git clone https://github.com/JaewooJoung/julia#git pull origin main
 using Dates 
-my_message = "Auto push" 
+my_message = "today is my first commit in CEVT" 
 repo_path = "C:\\Users\\jaewoo.joung\\julia"
 cd(repo_path)
 run(`c:\\tools\\git\\bin\\git.exe add .`)
