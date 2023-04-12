@@ -11,7 +11,7 @@ function build_model(vocab_size, hidden_size)
     )
 end
 
-# Define the loss function
+# Define the loss functions.
 function loss(model, inputs, targets)
     preds = model.(inputs)
     return crossentropy.(preds, targets)
