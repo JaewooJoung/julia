@@ -115,6 +115,9 @@ add_data_to_dataframe(df, "sDSSADm_acsfcc","automatically commanded steering fun
 add_data_to_dataframe(df, "sDSSADm_acsfcd","automatically commanded steering function category D status",32,31,10)
 add_data_to_dataframe(df, "sDSSADm_acsfce","automatically commanded steering function category E status",32,31,10)
 
+# make Cpp variables
+println(print_cpp_variables(df))
+
 # Let's See it 
 println(df)
 
@@ -124,4 +127,3 @@ df[!, :product] = df.Memory_Byte .* df.count .* df.sample_rate
 # Compute the sum of the product column
 println(convert_bytes(sum(df.product)))
 
-println(print_cpp_variables(df))
