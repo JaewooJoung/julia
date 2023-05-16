@@ -4,7 +4,7 @@
 #cd C:\Users\jaewoo.joung\ #local drive 
 #git clone https://github.com/JaewooJoung/julia#git pull origin main
 using Dates 
-my_message = "dude check the 14th line here " 
+my_message = "Duck DB is GOOD " 
 repo_path = "C:\\Users\\jaewoo.joung\\julia"
 cd(repo_path)
 
