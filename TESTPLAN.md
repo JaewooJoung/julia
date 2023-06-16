@@ -3,9 +3,9 @@
 gantt
     dateFormat YYWW
     axisFormat %yW%W
-    title Test Preparation
+    title CX1e ADAS Test Plan
 
-    section General Preparation
+    section VP1 <br> (General Preparation)
 	PA	: crit, active, milestone, 2023-07-01,1d
 	Define Test Objectives	: active, des1, 2023-07-02,4d
 	Develop Test Plan	: active, des2, 2023-07-03,29d
@@ -23,7 +23,7 @@ gantt
 	Secure GAS EVO SW	: crit, active, milestone, 2024-02-01,1d
 	Secure Test Vehicles	: crit, active, milestone, 2024-02-02,4d
 
-    section Winter Test
+    section VP1(or maybe 2)<br> (Winter Test)
 	Sensor Calibration	: active, des2, 2024-02-05,15d
 	Functional Testing	: active, des3, 2024-02-20,29d
 	Object Detection and Tracking	: active, des4, 2024-03-20,29d
@@ -32,7 +32,7 @@ gantt
 	Functional Safety	: active, des7, 2024-06-17,29d
     Test Results and Data	: active, des8, 2024-08-01,1d
 
-    section Collision Avoidance(CMSF,AEB)
+    section VP2 <br> Collision Avoidance(CMSF,AEB)
 	Sensor Calibration	: active, des2, 2024-02-05,15d
 	Functional Testing	: active, des3, 2024-02-20,29d
 	Object Detection and Tracking	: active, des4, 2024-03-20,29d
@@ -41,7 +41,7 @@ gantt
 	Functional Safety	: active, des7, 2024-06-17,29d
     Test Results and Data	: active, des8, 2024-08-01,1d
     
-    section Adaptive Cruise Control (ACC)
+    section VP2 <br> Adaptive Cruise Control (ACC)
 	Sensor Calibration	: active, des2, 2024-02-05,15d
 	Functional Testing	: active, des3, 2024-02-20,29d
 	Object Detection and Tracking	: active, des4, 2024-03-20,29d
@@ -50,7 +50,7 @@ gantt
 	Functional Safety	: active, des7, 2024-06-17,29d
     Test Results and Data	: active, des8, 2024-08-01,1d
     
-    section Lane Departure Warning (LDW)
+    section VP2 <br> Lane Departure Warning (LDW)
 	Sensor Calibration	: active, des2, 2024-02-05,15d
 	Functional Testing	: active, des3, 2024-02-20,29d
 	Object Detection and Tracking	: active, des4, 2024-03-20,29d
@@ -59,7 +59,7 @@ gantt
 	Functional Safety	: active, des7, 2024-06-17,29d
     Test Results and Data	: active, des8, 2024-08-01,1d
     
-    section Traffic Sign Recognition (TSR)
+    section VP2 <br> Traffic Sign Recognition (TSR)
 	Sensor Calibration	: active, des2, 2024-02-05,15d
 	Functional Testing	: active, des3, 2024-02-20,29d
 	Object Detection and Tracking	: active, des4, 2024-03-20,29d
@@ -68,7 +68,7 @@ gantt
 	Functional Safety	: active, des7, 2024-06-17,29d
     Test Results and Data	: active, des8, 2024-08-01,1d
 
-    section Homologation handover
+    section 5 TT and 2PP VP2 <br> Homologation handover testing for Q-test
 	Compliance Documentation	: crit, active, milestone, 2024-08-01,1d
 	Sensor Calibration Reports	: crit, active, milestone, 2024-08-02,4d
 	Safety Assessments	: active, des2, 2024-08-05,15d
