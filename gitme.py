@@ -1,7 +1,7 @@
 import subprocess
 from datetime import datetime
 
-my_message = "Duck DB is GOOD "
+my_message = "Today I changed to python"
 repo_path = r"C:\Users\jaewoo.joung\julia"
 subprocess.run(["cd", repo_path], shell=True)
 
